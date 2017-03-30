@@ -1,0 +1,75 @@
+{box-sizing: 
+    border-box
+}
+
+body {
+    background-color:black
+}
+
+#grid {
+    width: 1920px;
+    height:1080px;
+    margin:auto;
+  
+}
+
+.grid-element {
+    min-width:640px;
+    min-height:360px;
+    float:left;
+    border:none;
+    
+
+   
+}
+
+
+
+#two {
+				width: 640px;
+				height: 360px;
+				background: url("homepage/2.jpg");
+		}
+
+#two:hover {
+
+		background: url("homepage/gifs/two.gif");
+
+}
+
+#seven {
+				width: 640px;
+				height: 360px;
+				background: url("homepage/7.jpg");
+		}
+
+#seven:hover {
+
+		background: url("homepage/gifs/seven.gif");
+
+}
+
+#eight {
+				width: 640px;
+				height: 360px;
+				background: url("homepage/8.jpg");
+		}
+
+#eight:hover {
+
+		background: url("homepage/gifs/eight.gif");
+
+}
+
+#nine {
+				width: 640px;
+				height: 360px;
+				background: url("homepage/9.jpg");
+		}
+
+#nine:hover {
+    background:url("homepage/gifs/nine.gif")
+}
+
+
+

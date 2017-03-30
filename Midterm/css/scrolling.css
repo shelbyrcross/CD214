@@ -1,0 +1,140 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+} 
+
+html, body {
+	width: 100%;
+	height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background: linear-gradient(270deg, #000000, #e5247b, #980000);
+	background-size: 600% 600%;
+	-webkit-animation: Gradient 60s ease infinite;
+	-moz-animation: Gradient 60s ease infinite;
+	animation: Gradient 60s ease infinite;
+}
+	
+    
+    @-webkit-keyframes Gradient {
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+	}
+	@-moz-keyframes Gradient {
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+	}
+	@keyframes Gradient { 
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+	}
+
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+a:visited{
+    color:white;
+    text-decoration: none;
+}
+
+a:hover {
+    color:red;
+    text-decoration: none;
+}
+
+a:active{
+    color:hotpink;
+    text-decoration: none;
+}
+
+
+h1,h2,h3{
+    text-align:center;
+    position:inherit;
+    font-family:"helvetica";
+    font-weight:300;
+    color:white;
+    padding:300px;
+    width:100%;
+
+        
+}
+
+#cross {
+    text-decoration:line-through
+}
+
+#largeyou {
+    font-size:25px
+}
+
+#relax {
+    padding-bottom:20px;
+}
+
+#vid1 {
+    margin: 0 auto;
+    text-align:center;
+    padding-top:20px;
+    padding-bottom:300px
+  
+}
+
+
+#listdiv {
+    align-items: center;
+}
+
+
+#reasons {
+    float:left;
+    font-family:"helvetica";
+    color:white;
+    background-color:rgba(0, 0, 0, 0.2);
+    border-style:solid;
+    border-width:thick;
+    padding:25px;
+    width:50%;
+    margin:40px;
+   
+    
+
+}
+
+#rhead {
+    font-size:40px;
+}
+
+
+li {
+    font-size:25px;
+    list-style-type: circle;
+}
+
+#phone {
+    float:right;
+    max-width:50%;
+    
+
+
+}
+
+
+
+.gethelp {
+    padding:300px;
+    margin:25px;
+}
+
+
+
+
+
