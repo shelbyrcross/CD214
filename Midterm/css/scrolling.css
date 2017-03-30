@@ -2,6 +2,8 @@
   box-sizing: border-box;
 } 
 
+ /*background css taken from www.gradient-animator.com and revised using this fiddle: http://jsfiddle.net/9s9g6ktu/1/*/
+
 html, body {
 	width: 100%;
 	height: 100%;
